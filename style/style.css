@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #131313;
+    background-image: url("../icons/gr1.svg");
+    background-repeat: no-repeat;
+    color: #ddd;
+}
+
+.font{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 11px;
+    word-spacing: 30px;
+    letter-spacing: 3px;
+    font-variant: small-caps;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    font-family: 'Roboto';
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+ul li::before {
+    content: '✔';
+    color: red;
+    margin-right: 15px;
+}
+
+.padding-1{
+    padding: 20px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.logo-pos{
+    float: left;
+}
+
+.logo{
+    width: auto;
+    height: 40px;
+
+}
+
+.nav-main{
+    float: right;
+    margin-top: -5px;
+}
+
+.discord{
+    position: relative;
+    top: 22px;
+    right: 10px;
+    height: 24px;
+}
+
+.pad{
+    padding-top: 100px;
+}
+
+.padding-2{
+    padding: 35px;
+}
+
+.button-w{
+    font-family: 'Roboto';
+    background-color: rgba(221, 53, 56, 1);
+    padding: 15px 32px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-align: center;
+    color: black;
+}
+
+.windows{
+    position: relative;
+    top: -2px;
+    width: auto;
+    height: 22px;
+    vertical-align: middle;
+}
+
+.hero2{
+    position: relative;
+    float: right;
+    width: 550px;
+    height: 310px;
+    top: 5em;
+}
+
+.font-roboto{
+    font-family: 'Roboto';
+}
+
+.padding-1 img{
+    margin-bottom: 15px;
+}
+
+.padding-1 h2{
+    margin-bottom: 20px;
+}
+
+div p{
+    font: 16px / 1.75 nunito sans, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+    word-spacing: 2px;
+}
+
+.flex{
+    display: flex;
+}
+
+.brb{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+.p_type{
+    max-width: 540px;
+}
+
+.video-pos{
+    position: relative;
+    top: -100px;
+}
+
+.video-pos img{
+    width: 100%;
+    height: 350px;
+}
+
+.h1-center{
+    text-align: center;
+    font-size: 64px;
+    word-spacing: 10px;
+}
+
+.slider{
+    text-align: center;
+    padding: 24px;
+}
+
+.red-tab{
+    background-color: rgb(221, 53, 56);
+    height: 200px;
+}
+
+.red-font{
+    text-align: left;
+    margin-left: 15em;
+    font-size: 43px;
+}
+
+.red-pos{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.button-r{
+    background-color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.button-setting{
+    text-align: right;
+    margin-left: 27em;
+}
+
+.footer-pos{
+    display: flex;
+    align-items: center;
+}
+
+.foot-logo{
+    text-align: right;
+    margin-left: 27em;
+    height: 45px;
+}
+
+.foot-font{
+    text-align: left;
+    margin-left: 35em;
+    max-width: 750px;
+}
+
+.terms{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.social{
+    text-align: center;
+}
+
+.nav-main a:hover{
+    color: gray;
+    transition: 0.3s;
+}
+
+.button-w:hover{
+    background-color: rgb(224, 73, 76);
+    transition: 0.3s;
+}
+
+.button-r:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.video-pos img:hover{
+    filter: grayscale(100%);
+    transition: 0.3s ease;
+}
